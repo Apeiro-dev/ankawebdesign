@@ -225,19 +225,11 @@ main {
   text-align: center;
 }
 
-.what-we-do p {
-  font-size: calc(var(--font-size) * 3);
-  position: absolute;
-  bottom: var(--spacing);
-  text-transform: capitalize;
-  background-image: linear-gradient(to right, white, rgb(192, 170, 170), red);
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-}
+.what-we-do h1
+{
+  color: #d4d4d4;
+  margin-top: 150px;
 
-.what-we-do:hover p {
-  animation: left-to-right 20s linear infinite;
 }
 
 .who-are-we
