@@ -162,8 +162,8 @@ input[type="submit"], button a {
 }
 
 button {
-  background-color: var(--main-color);
-  border: 2px solid rgba(3, 3, 3, 0.932);;
+  background-color: var(--second-color);
+  border: 2px solid #2371E7;
   margin: var(--sm-spacing);
   border-radius: 4px;
   transition: border-color .5s ease-in;
@@ -173,15 +173,15 @@ button a {
   display: block;
   margin: 0;
   width: 100%;
-  color:rgba(3, 3, 3, 0.932);
-  transition: color .5s ease-in;
+  color: #2371E7;
+  transition: color .3s ease-in;
 }
 button:hover {
-  background-color: var(--second-color);
-  border-color: #2371E7;
+  background-color: #2371E7;
+  border-color: white;
 } 
 
-.order:hover a {color: #2371E7}
+.order:hover a {color: white}
 
 input[type="submit"] {
   display: block;
