@@ -408,25 +408,34 @@ article:hover, .mail-us {
   box-shadow: unset;
 }
 
-.mail-us form {
-  margin: var(--spacing) auto;
-  overflow: hidden;
+#contact-us-instagram:hover
+{
+  border: 5px solid palevioletred;
 }
 
-.form-input {
-  min-height: 2rem;
-  margin: var(--sm-spacing) 0;
-  place-items: stretch flex-start;
+#contact-us-whatsapp:hover
+{
+  border: 5px solid yellowgreen;
 }
 
-.form-input input, textarea {
-  width: 100%;
-  border: 1px solid #7794;
-  border-radius: 2px;
+#contact-us-mailadress:hover
+{
+  border: 5px solid rgb(8, 171, 235);
 }
 
-textarea {
-  resize: vertical;
+#contact-us-instagram
+{
+  text-align: center;
+}
+
+#contact-us-whatsapp
+{
+  text-align: center;
+}
+
+#contact-us-mailadress
+{
+  text-align: center;
 }
 
 /** == FOOTER == **/
@@ -437,15 +446,26 @@ footer {
   box-shadow: 0 -1px 4px #344;
   text-align: center;
 }
-
-.socials {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-  max-width: 100px;
-  margin: 0 auto var(--sm-spacing);
+footer p {
+  margin-bottom: var(--spacing)
 }
 
+.socials {
+  background: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  margin:  0 auto;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 4;
+  padding: 0 5px;
+}
+
+.socials a {
+  margin: var(--spacing) 0;
+}
 /* ========== MEDIA QUERIES ========= */
 
 @media only screen and (min-width: 650px) {

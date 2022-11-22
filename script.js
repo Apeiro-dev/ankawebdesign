@@ -1,18 +1,13 @@
-$(document).ready(function(){
+// Function that will toggle the nav-bar in small and medius screen
+function toggleOpen(element) {
+  element.classList.toggle('open');
+}
+let navBar = document.querySelector('.nav-bar');
+let offerBtn = document.querySelector('.header-button');
+let menuList = document.querySelector('.bi-list');
 
-  // If we click on the menu it opens or close;
-  $(".bi-list").click(function(){
-    $(".nav-bar").slideToggle('slow');
-    $('.header-button').slideToggle('.slow');
-  });
-  
-  //If we click on the links to it should close;
-  var theWidth = 600;
-  if(screen.width <= theWidth)
-  {
-    $('.nav-link').click(function(){
-      $('.nav-bar').slideUp('slow');
-      $('.header-button').slideUp('.slow');
-    })
-  };
+menuList.addEventListener('click', () => {
+  toggleOpen(navBar);
+  toggleOpen(offerBtn);
+  return;
 })
