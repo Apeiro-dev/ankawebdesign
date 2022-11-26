@@ -425,16 +425,25 @@ article:hover, .mail-us {
 
 #contact-us-instagram
 {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   text-align: center;
 }
 
 #contact-us-whatsapp
 {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   text-align: center;
 }
 
 #contact-us-mailadress
 {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
   text-align: center;
 }
 
