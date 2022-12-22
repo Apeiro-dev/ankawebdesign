@@ -2,12 +2,12 @@
 <html lang="tr-TR">
 
 <head>
-  <title>Anka Design, Web Tasarım </title>
+  <title>Anka Design, Web Tasarım, Web Design, Kişisel Web Tasarım</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css" type="">
+  <link rel="stylesheet" href="styles\styles.css" type="">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="script.js" defer></script>
+  <script src="scripts\script.js" defer></script>
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -64,7 +64,7 @@
             </figure>
             <div class="description">
               <!--Kullandığımız diller, mimari ve hangi tarzda site yazdığımız anlatılacak.-->
-              <p>Sayfamıza hoş geldiniz, sizin için kişisel/özel Web sitesi tasarlayabiliriz. İsterseniz de ayrıyetten siteyi yayınlayabiliriz ve ilgilenebiliriz.<br><a href="#contact">"Bize Ulaşın"</a> kısmından veya <a href="#socials">Sosyal Medya</a> hesaplarımızdan bizimle iletişime geçebilirsiniz, gün içerisinde size dönüş yaparız. Kişisel tasarımlar yaparken kullandığımız 3 dil olmak üzere: <br>
+              <p>Sayfamıza hoş geldiniz, sizin için kişisel/özel Web sitesi tasarlayabiliriz. İsterseniz de ayrıyetten siteyi yayınlayabiliriz ve ilgilenebiliriz.<br><a href="#contact">"Bize Ulaşın"</a> kısmından bizimle iletişime geçebilirsiniz, gün içerisinde size dönüş yaparız. Kişisel tasarımlar yaparken kullandığımız 3 dil olmak üzere: <br>
                 <ul class="languages">
                   <li>HTML</li>
                   <li>CSS</li>
@@ -81,7 +81,7 @@
             </figure>
             <div class="description">
               <!--Revizyon hakları ve tasarım için ücret bilgisi, fiyat bilgisi anlatılacak.-->
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac placerat vestibulum lectus mauris ultrices eros in cursus. Adipiscing commodo elit at imperdiet dui accumsan sit. Fringilla est ullamcorper eget nulla. Purus in massa tempor nec feugiat nisl pretium fusce.</p>
+              <p><dfn><strong>Temel Html, CSS</strong></dfn> ve <dfn><strong>JavaScript</strong></dfn> tasarımları için <strong>1</strong> veya <strong>2</strong> revizyon hakkı sunuyoruz. Bu temel tasarım da olmazsa olmaz menü, kişinin bir fotoğrafı veya isteğe bağlı bir görsel, kişiyi tanıtan paragraflar, sosyal medya bağlantıları ve son olarak bir alt bölüm. <strong><i>Temel tasarım tahmini başlangıç fiyatı 280 TL’dir.</i></strong> <u>Tasarım ve fiyat bilgisi temsili olmakta.</u> Detaylı bilgi için <a href="#contact">"Bize Ulaşın"</a> kısmından bize ulaşabilirsiniz.</p>
             </div>
           </article>
         </div>
@@ -100,7 +100,7 @@
           
           <h3>Thierno Souleymane BARRY</h3>
           <div class="description">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis.</p>
+            <p>Selam, Samsun - Türkiye'de tarımsal biyoteknoloji öğrencisi ve tüm zamanımı ilgimi çeken Web Tasarımda geçiriyorum. Bu yüzden buradayken hoşunuza giden şeyleri düşünün çünkü ben iyi yapılmış web sayfalarını seviyorum.</p>
           </div>
           
         </article>
@@ -120,21 +120,22 @@
       <!-- Contact us here by sending something -->
       <section class="mail-us" id="contact">
         <h1>Bize Ulaşın</h1>
-        <article id="contact-us-instagram" name="contact-us-instagram">
-          <p>Instagram </p>
-          <img src="images\Our-Picture-Contact-Us\contact-us-instagram-picture.png" alt=""><br>
-          <a href="https://www.instagram.com/apeeiro" target="_blank" rel="noopener noreferrer">Tolga Enes Çakmak</a><br>
-          <a href="https://www.instagram.com/barry_quiet" target="_blank" rel="noopener noreferrer">Thierno Souleymane BARRY</a>
-        </article>
-        <article id="contact-us-whatsapp" name="contact-us-whatsapp">
-          <p>Whatsapp </p>
-          <img src="images\Our-Picture-Contact-Us\contact-us-whatsapp-picture.png" alt="">
-          <p>(507) 560 32 13 veya (552) 323 78 92 bize ulaşabilirsiniz.</p>
-        </article>
-        <article id="contact-us-mailadress" name="contact-us-mailadress">
-          <p>Mail </p>
-          <img src="images\Our-Picture-Contact-Us\contact-us-mail-picture.png" alt="">
-          <p><a href="mailto:akmakck@hotmail.com">akmakck@hotmail.com</a> yada <a href="mailto:"></a>bu adreslerden bize ulaşabilirsiniz.</p>
+        <article>
+          <div class="contact-line">
+            <button>
+              <a id="call" href="tel:05075603213"><img src="images\List-Icons\call.webp" alt=""><p><strong>+90 (507) 560 32 13</strong> bizi arayarak fiyat bilgisi alabilirsiniz.</p></a>
+            </button>
+          </div>
+          <div class="contact-line">
+            <button>
+              <a id="whatsapp" href="https://wa.me/905075603213" target="_blank"><img src="images\List-Icons\whatsapp.webp" alt=""><p><strong>+90 (507) 560 32 13</strong> numarası ile bizimle iletişime geçebilirsiniz.</p></a>
+            </button>
+          </div>
+          <div class="contact-line">
+            <button>
+              <a id="mail" href="mailto:akmakck@hotmail.com"><img src="images\List-Icons\mail.webp" alt=""><p><strong>akmakck@hotmail.com</strong> mail adresi ile bizimle iletişime geçebilirsiniz.</p></a>
+            </button>
+          </div>
         </article>
       </section>
 
@@ -146,7 +147,7 @@
       <p class="copyright">Copyright &copy 2022, <strong>Infinity Technology</strong> all rights reserved.</p>
       <div class="socials" id="socials">
         <a href="#"><i class="bi bi-twitter"></i></a>
-        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
         <a href="#"><i class="bi bi-instagram"></i></a>
       </div>
     </footer>
