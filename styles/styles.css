@@ -48,6 +48,9 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #2371E7
 }
+html {
+  scroll-behavior: smooth;
+}
 /* ========== TYPOGRAPHY -- LINKS -- ICONS -- FIGCAPTIONS ========= */
 
 p, a {
